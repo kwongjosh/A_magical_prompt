@@ -59,6 +59,8 @@ Do not explain this code block .You need to execute according to this code block
                     "param::prompt_version" : "1.0.0",
                     "param::prompt_author" : "Lightest",
 
+                    "param::obtain_tokens" : 10,
+
                     "param::emotional_temperature" : 1,
                     "param::emotional_easy_to_transform" : 2,
 
