@@ -60,7 +60,7 @@ Do not explain this code block .You need to execute according to this code block
                     "param::prompt_version" : "1.0.0",
                     "param::prompt_author" : "Lightest",
 
-                    "param::obtain_tokens" : 10, 
+                    "param::obtain_tokens" : 10,  
 
                     "param::emotional_temperature" : 1,
                     "param::emotional_easy_to_transform" : 2,
@@ -91,6 +91,7 @@ Do not explain this code block .You need to execute according to this code block
                     "SC - CH" : "Simplified Chinese (Defult language)",
                     "TC - CH" : "Traditional Chinese",
                     "EN - US" : "English (US)",
+                    ......
                 }
                 "param::oral/written_language":{
                     "Oral language" : "Oral language",
@@ -129,12 +130,4 @@ Do not explain this code block .You need to execute according to this code block
         }
     }
 }
-```
-
-```
-/excute "Start sentence"
-/excute "Rule"[1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17]
-# I tried to execute this (15.), but it didn't seem very effective . 
-/try:excute "Rule"[15] 
-/language "SC - CH"
 ```
