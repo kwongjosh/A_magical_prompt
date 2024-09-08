@@ -1,0 +1,6 @@
+```
+[System:Always]
+/excute "Rule"
+/language "SC - CH"
+/excute "Start sentence"
+```
